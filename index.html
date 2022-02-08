@@ -11,29 +11,29 @@
 	    <legend><h3>My info:</h3></legend>
 		<div>
 		  <label for = "name">First Name:</label>
-		  <input type = "text"  firstname = "First Name" id = "name" placeholder = "First Name" required>
+		  <input type = "text"  name = "first_name_field" id = "name" placeholder = "First Name" required>
 		</div>
 		<br>
 		<div>
 		  <label for = "name">Last Name:</label>
-		  <input type = "text" lastname = "Last Name" id = "name" placeholder = "Last Name" required>
+		  <input type = "text" name = "last_name_field" id = "name" placeholder = "Last Name" required>
 		</div>
 		<br>
 		<div>
 		  <label for = "phone">Phone Number:</label>
-		  <input type = "tel" name = "Phone Number" id = "phone" required>
+		  <input type = "tel" name = "phone_field" id = "phone" required>
 		</div>
 		<br>
 		<div>
 		  <label for = "email">Email Adress:</label>
-		  <input type = "email" name = "Email Adress" required>
+		  <input type = "email" name = "email_field" required>
 		</div>
 		<br>
 		<div>
 		  Gender:
 		    <div>
 			  <label for = "Male">Male:</label>
-			  <input type = "radio" name = "gender" id = "Male" value = "male">
+			  <input type = "radio" name = "gender_field" id = "Male" value = "male">
 			</div>
 			<div>
 			  <label for = "Female">Female:</label>
@@ -43,7 +43,7 @@
 		<br>
 		<div>
 		  <label for = "Age">Age:</label>
-		  <select name = "Age" id = "Age">
+		  <select name = "age_field" id = "Age">
 		    <option value = "Under 18">Under 18</option>
 			<option value = "18 - 24">18 - 24</option>
 			<option value = "25 -34">25 - 34</option>
@@ -61,42 +61,42 @@
 	    <header><h4>Days Available:</h4></header>	 
 	    <div>
 		  <label for = "Sunday">Sunday</label>
-		  <input type = "checkbox" name = "Sunday" id = "Sunday">
+		  <input type = "checkbox" value = "Sunday" name = "available_field[]" id = "Sunday">
 		</div>
 		<div>
 		  <label for = "Monday">Monday</label>
-		  <input type = "checkbox" name = "Monday" id = "Monday">
+		  <input type = "checkbox" value = "Monday" name = "available_field[]" id = "Monday">
 		</div>
 		<div>
 		  <label for = "Tuesday">Tuesday</label>
-		  <input type = "checkbox" name = "Tuesday" id = "Tuesday">
+		  <input type = "checkbox" value = "Tuesday" name = "available_field[]" id = "Tuesday">
 		</div>
 		<div>
 		  <label for = "Wednesday">Wednesday</label>
-		  <input type = "checkbox" name = "Wednesday" id = "Wednesday">
+		  <input type = "checkbox" value = "Wednesday" name = "available_field[]" id = "Wednesday">
 		</div>
 		<div>
 		  <label for = "Thursday">Thursday</label>
-		  <input type = "checkbox" name = "Thursday" id = "Thursday">
+		  <input type = "checkbox" value = "Thursday" name = "available_field[]" id = "Thursday">
 		</div>
 		<div>
 		  <label for = "Friday">Friday</label>
-		  <input type = "checkbox" name = "Friday" id = "Friday">
+		  <input type = "checkbox" value = "Friday" name = "available_field[]" id = "Friday">
 		</div>
 		<div>
 		  <label for = "Saturday">Saturday</label>
-		  <input type = "checkbox" name = "Saturday" id = "Saturday">
+		  <input type = "checkbox" value = "Saturday" name = "available_field[]" id = "Saturday">
 		</div>
 	  </div>
 	  <br>
 	  <div>
-	    <label for = "coments">Any Coments?</label>
+	    <label for = "comments">Any Comments?</label>
 		<br>
-		<textarea id = "coments" name = "coments" placeholder = "Is there any feedback you would like to provide?"></textarea>
+		<textarea id = "comments" name = "comments_field" placeholder = "Is there any feedback you would like to provide?"></textarea>
 	  </div>
 	</fieldset>
-	<button>Submit</button>
-	<input type = "hidden" name = "hidden" value = "Hi its me Muhammad. My email is marbi@hawk.iit.edu.">
+	<button>Send Me</button>
+	<input type = "hidden" name = "hidden_field" value = "IIT login username: marbi@hawk.iit.edu">
 	
   </form>
 </body>
