@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <title>ITMD-361 Internet Technologies and Web Design</title>
 </head>
+<link rel = "stylesheet" href = "css/style.css">
 <body>
   <form method = "POST" action = "http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
   <header><h1>Volunteer Form</h1></header>
-    <fieldset style = "border: #000000 2px solid;">
+    <fieldset class = "bottom_container" style = "border: #000000 2px solid;">
 	    <legend><h3>My info:</h3></legend>
 		<div>
 		  <label for = "name">First Name:</label>
@@ -53,12 +54,12 @@
 			<option value = "65 and over">65 and over</option>
 		  </select>
 		</div>
-		
 	</fieldset>
-	<fieldset style = "border: #000000 2px solid;">
-	<legend><h4>My Availability</h4></legend>
+	<br>
+	<fieldset class = "bottom_container" style = "border: #000000 2px solid;">
+	<legend><h4 class = "bottom_title">My Availability</h4></legend>
 	  <div>
-	    <header><h4>Days Available:</h4></header>	 
+	    <header><h4 class = "days_available">Days Available:</h4></header>	 
 	    <div>
 		  <label for = "Sunday">Sunday</label>
 		  <input type = "checkbox" value = "Sunday" name = "available_field[]" id = "Sunday">
