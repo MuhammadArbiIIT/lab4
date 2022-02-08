@@ -32,18 +32,25 @@
 		<div>
 		  Gender:
 		    <div>
-			  <label for = "Male">Male</label>
-			  <input type = "radio" name = "gender" id = "Male">
+			  <label for = "Male">Male:</label>
+			  <input type = "radio" name = "gender" id = "Male" value = "male">
 			</div>
 			<div>
-			  <label for = "Female">Female</label>
-			  <input type = "radio" name = "gender" id = "Female">
+			  <label for = "Female">Female:</label>
+			  <input type = "radio" name = "gender" id = "Female" value = "female">
 			</div>
 		</div>
 		<br>
 		<div>
-		  <label for = "age">Age:</label>
-		  <input type = "number" name = "Age" id = "age">
+		  <label for = "Age">Age:</label>
+		  <select name = "Age" id = "Age">
+		    <option value = "Under 18">Under 18</option>
+			<option value = "18 - 24">18 - 24</option>
+			<option value = "25 -34">25 - 34</option>
+			<option value = "35 - 44">35 - 44</option>
+			<option value = "45 - 54">45 - 54</option>
+			<option value = "55 - 64">55 - 64</option>
+			<option value = "65 and over">65 and over</option>
 		</div>
 		<br>
 		 <button type = "submit">Submit</button>
